@@ -15,7 +15,6 @@ def query_dataset(query, data):
         #f"In your explanation, remember to display the actual values the user is looking for, not placeholders."
         f"Make sure to provide the exact values from the dataset, not placeholders."
         f"Conclude your response with the precise answer derived from the data."
-        f"If the query isn't related to the dataset the user is querying, tell them the information isn't available."
     )
 
     response = client.chat.completions.create(
